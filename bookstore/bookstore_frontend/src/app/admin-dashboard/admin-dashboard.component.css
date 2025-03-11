@@ -1,0 +1,53 @@
+.container {
+    max-width: 1450px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .form-card {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  mat-form-field {
+    flex: 1;
+    min-width: 150px;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  th {
+    background-color: #f5f5f5;
+  }
+
+/* A teljes gomb középre igazítása */
+.delete-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%; /* Kör alakúvá teszi */
+}
+
+/* Az emoji középre igazítása a gombon belül */
+.delete-icon {
+  font-size: 20px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+  
